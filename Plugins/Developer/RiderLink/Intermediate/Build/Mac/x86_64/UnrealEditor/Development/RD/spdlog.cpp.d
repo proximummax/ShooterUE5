@@ -1,11 +1,11 @@
-/Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/spdlog.cpp.o: \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/spdlog.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/Definitions.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
+/Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/spdlog.cpp.o: \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/spdlog.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/Definitions.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
@@ -362,16 +362,16 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
@@ -379,30 +379,30 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/formatter.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/periodic_worker.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/formatter.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/periodic_worker.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ansicolor_sink.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/console_globals.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/console_globals.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blkcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blksize_t.h \
@@ -445,11 +445,11 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/gethostuuid.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/fmt_helper.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink-inl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink.h
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/fmt_helper.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink-inl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink.h

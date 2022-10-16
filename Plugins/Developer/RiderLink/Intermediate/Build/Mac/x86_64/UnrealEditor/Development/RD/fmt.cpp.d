@@ -1,7 +1,7 @@
-/Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/fmt.cpp.o: \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/fmt.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/Definitions.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+/Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/fmt.cpp.o: \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/fmt.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RD/Definitions.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -414,5 +414,5 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h

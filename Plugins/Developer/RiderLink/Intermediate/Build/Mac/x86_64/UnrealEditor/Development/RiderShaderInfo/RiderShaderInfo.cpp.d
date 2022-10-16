@@ -1,7 +1,7 @@
-/Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.o: \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfo/Definitions.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.h \
+/Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.o: \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderShaderInfo/Definitions.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Platform.h \

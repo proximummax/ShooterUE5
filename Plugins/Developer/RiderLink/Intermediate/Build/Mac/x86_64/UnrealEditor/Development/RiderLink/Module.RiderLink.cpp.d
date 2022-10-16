@@ -1,14 +1,14 @@
-/Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Module.RiderLink.cpp.o: \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Module.RiderLink.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Definitions.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h \
+/Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Module.RiderLink.cpp.o: \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Module.RiderLink.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Definitions.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -358,11 +358,11 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_hash.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_hash.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/math.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_map.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_map.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h \
@@ -374,7 +374,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/include/nonstd/string_view.hpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/include/nonstd/string_view.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
@@ -430,90 +430,90 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/allocator.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/overloaded.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/shared_function.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/to_string.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/allocator.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/overloaded.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/shared_function.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/to_string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/future \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/codecvt \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/list.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/DefaultAbstractDeclaration.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_map.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/list.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/DefaultAbstractDeclaration.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_map.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_set \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/Property.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IProperty.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalX.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/Property.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IProperty.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalX.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/regex \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/guards.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedAnySerializer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/SocketWire.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/WireBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/MessageBroker.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/guards.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedAnySerializer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/SocketWire.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/WireBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/MessageBroker.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/ByteBufferAsyncProcessor.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/ByteBufferAsyncProcessor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PkgInputStream.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PkgInputStream.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/UniquePtr.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/CoreTypes.h \
@@ -1956,110 +1956,110 @@
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformFile.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Color.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Paths.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/daily_file_sink.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/file_helper.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/chrono.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/chrono.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/formatter.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.hpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSignal.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdProperty.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdPropertyBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdList.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableList.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/viewable_collections.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSet.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableSet.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableSet.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdMap.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableMap.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableMap.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/NullableSerializer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/AbstractPolymorphic.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/framework_traits.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ArraySerializer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedSerializer.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdCall.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTask.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskImpl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskResult.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTask.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTaskImpl.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdEndpoint.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/daily_file_sink.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/file_helper.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/chrono.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/chrono.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/formatter.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.hpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSignal.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdProperty.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdPropertyBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdList.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableList.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/viewable_collections.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSet.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableSet.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableSet.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdMap.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableMap.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableMap.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/NullableSerializer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/AbstractPolymorphic.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/framework_traits.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ArraySerializer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedSerializer.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdCall.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTask.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskImpl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskResult.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTask.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTaskImpl.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdEndpoint.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/Boilerplate/ModuleBoilerplate.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SingleThreadScheduler.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SingleThreadScheduler.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.h \
   /Users/Shared/EpicGames/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopeRWLock.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.h \
-  /Users/grigorijpolsikov/Documents/Unreal\ Projects/Shooter/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.h \
+  /Users/grigorijpolsikov/Documents/Unreal\ Projects/ShooterUE5/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp
