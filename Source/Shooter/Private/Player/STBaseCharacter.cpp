@@ -4,9 +4,16 @@
 #include "Player/STBaseCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
-//#include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/STCharacterMovementComponent.h"
+#include "Components/STHealthComponent.h"
+#include "Components/TextRenderComponent.h"
+#include "Components/STWeaponComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/Controller.h"
+
+
+DEFINE_LOG_CATEGORY_STATIC(BaseCharacterLog, All, All);
 
 ASTBaseCharacter::ASTBaseCharacter(const FObjectInitializer& ObjInit)
 :Super(ObjInit.SetDefaultSubobjectClass<USTCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))
@@ -19,11 +26,30 @@ ASTBaseCharacter::ASTBaseCharacter(const FObjectInitializer& ObjInit)
 
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
 	CameraComponent->SetupAttachment(SpringArmComponent);
+
+	HealthComponent = CreateDefaultSubobject<USTHealthComponent>("HealthComponent");
+	
+	HealthTextComponent = CreateDefaultSubobject<UTextRenderComponent>("HealthTextComponent");
+	HealthTextComponent->SetupAttachment(GetRootComponent());
+	HealthTextComponent->SetOwnerNoSee(true);
+	
+	WeaponComponent = CreateDefaultSubobject<USTWeaponComponent>("WeaponComponent");
+	
 }
 
 void ASTBaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	check(HealthComponent);
+	check(HealthTextComponent);
+	check(GetCharacterMovement());
+
+	OnHealthChanged(HealthComponent->GetHealth());
+	HealthComponent->OnDeath.AddUObject(this, &ASTBaseCharacter::OnDeath);
+	HealthComponent->OnHealthChanged.AddUObject(this, &ASTBaseCharacter::OnHealthChanged);
+
+	LandedDelegate.AddDynamic(this,&ASTBaseCharacter::OnGroundLanded);
+
 }
 
 void ASTBaseCharacter::Tick(float DeltaSeconds)
@@ -34,6 +60,9 @@ void ASTBaseCharacter::Tick(float DeltaSeconds)
 void ASTBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	check(PlayerInputComponent);
+	check(WeaponComponent);
+	
 	PlayerInputComponent->BindAxis("MoveForward", this, &ASTBaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveBack", this, &ASTBaseCharacter::MoveBack);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASTBaseCharacter::MoveRight);
@@ -46,6 +75,12 @@ void ASTBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ASTBaseCharacter::OnStartRunning);
 	PlayerInputComponent->BindAction("Run", IE_Released, this, &ASTBaseCharacter::OnStopRunning);
+
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, WeaponComponent, &USTWeaponComponent::StartFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, WeaponComponent, &USTWeaponComponent::StopFire);
+
+	PlayerInputComponent->BindAction("NextWeapon", IE_Pressed, WeaponComponent, &USTWeaponComponent::NextWeapon);
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, WeaponComponent, &USTWeaponComponent::Reload);
 }
 
 bool ASTBaseCharacter::IsRunning() const
@@ -97,4 +132,38 @@ void ASTBaseCharacter::OnStopRunning()
 {
 	WantsToRun = false;
 }
+void ASTBaseCharacter::OnDeath()
+{
+	PlayAnimMontage(DeathAnimMontage);
+
+	GetCharacterMovement()-> DisableMovement();
+	
+	SetLifeSpan(5.0f);
+	if(Controller)
+	{
+		Controller->ChangeState(NAME_Spectating);
+	}
+	GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+	WeaponComponent->StopFire();
+}
+
+void ASTBaseCharacter::OnHealthChanged(float Health)
+{
+	HealthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"),Health)));
+}
+
+void ASTBaseCharacter::OnGroundLanded(const FHitResult& Hit)
+{
+	const auto FallVelocityZ = -GetCharacterMovement()->Velocity.Z;
+
+	if(FallVelocityZ < LandedDamageVelocity.X)
+		return;
+	const auto FinalDamage = FMath::GetMappedRangeValueClamped(LandedDamageVelocity,LandedDamage, FallVelocityZ);
+	TakeDamage(FinalDamage, FDamageEvent {},nullptr, nullptr);
+	
+}
+
+
+
+
 
