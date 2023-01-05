@@ -27,13 +27,12 @@ void ASTProjectile::BeginPlay()
 	MovementComponent->Velocity = ShotDirection * MovementComponent->InitialSpeed;
 
 	CollisionComponent->IgnoreActorWhenMoving(GetOwner(), true);
-	UE_LOG(LogTemp, Warning, TEXT("Start"));
+
 	CollisionComponent->OnComponentHit.AddDynamic(this, &ASTProjectile::OnProjectileHit);
 	SetLifeSpan(LifeSeconds);
 }
 void ASTProjectile::OnProjectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit )
 {
-	UE_LOG(LogTemp, Warning, TEXT("Hit!"));
 	if(!GetWorld())
 		return;
 

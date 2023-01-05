@@ -12,6 +12,14 @@ USTHealthComponent::USTHealthComponent()
 	PrimaryComponentTick.bCanEverTick = false;
 }
 
+bool USTHealthComponent::TryToAddHealth(float HealthToAdd)
+{
+	if(Health >= MaxHealth)
+		return false;
+	Health = FMath::Clamp(Health + HealthToAdd, 0, MaxHealth);
+	return true;
+}
+
 void USTHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
@@ -26,9 +34,6 @@ void USTHealthComponent::BeginPlay()
 		ComponentOwner->OnTakeAnyDamage.AddDynamic(this, &USTHealthComponent::OnTakeAnyDamage);
 	}
 }
-
-
-
 
 void USTHealthComponent::OnTakeAnyDamage(AActor* DamagedActor, float Damage, const UDamageType* DamageType,
                                          AController* InstigatedBy, AActor* DamageCauser)

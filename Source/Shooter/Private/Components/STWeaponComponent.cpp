@@ -203,14 +203,40 @@ bool USTWeaponComponent::GetAmmoData(FAmmoData& AmmoData) const
 	return  true;
 }
 
+bool USTWeaponComponent::TryToAddAmmo(TSubclassOf<ASTBaseWeapon> WeaponType, int32 ClipsAmount)
+{
+	for (auto Weapon : Weapons)
+	{
+		if(!Weapon || !Weapon->IsA(WeaponType))
+			continue;
+
+		return Weapon->TryToAddAmmo(ClipsAmount);
+	}
+	return  false;
+}
+
 bool USTWeaponComponent::CanReload() const
 {
 	return CurrentWeapon && !EquipAnimInProgress && !ReloadAnimInProgress && CurrentWeapon->CanReload();
 }
 
-void USTWeaponComponent::OnEmptyClip()
+void USTWeaponComponent::OnEmptyClip(ASTBaseWeapon* AmmoEmpty)
 {
-	ChangeClip();
+	if(!AmmoEmpty)
+		return;
+	
+	if(CurrentWeapon == AmmoEmpty)
+		ChangeClip();
+	else
+	{
+		for (auto Weapon : Weapons)
+		{
+			if(Weapon != AmmoEmpty)
+				continue;
+			Weapon->ChangeClip();
+			break;
+		}
+	}
 }
 
 void USTWeaponComponent::ChangeClip()

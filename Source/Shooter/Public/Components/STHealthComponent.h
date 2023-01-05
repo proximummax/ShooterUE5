@@ -25,6 +25,7 @@ public:
 
 	FOnDeath OnDeath;
 	FOnHealthChanged OnHealthChanged;
+	bool TryToAddHealth(float HealthToAdd);
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health", meta=(ClampMin = "0.0", ClampMax = "100.0"))
 	float MaxHealth = 100.0f;
