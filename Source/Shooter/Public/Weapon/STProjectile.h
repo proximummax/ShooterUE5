@@ -37,7 +37,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="Weapon")
 	float LifeSeconds = 5.0f;
 
-	UPROPERTY(VisibleAnywhere, Category="VFX")
+	UPROPERTY(VisibleAnywhere,BlueprintReadWrite, Category="VFX")
 	USTWeaponFXComponent* WeaponFXComponent;
 private:
 	FVector ShotDirection;
