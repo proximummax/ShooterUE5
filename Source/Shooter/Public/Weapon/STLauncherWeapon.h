@@ -8,7 +8,6 @@
 #include "STLauncherWeapon.generated.h"
 
 class ASTProjectile;
-
 UCLASS()
 class SHOOTER_API ASTLauncherWeapon : public ASTBaseWeapon
 {

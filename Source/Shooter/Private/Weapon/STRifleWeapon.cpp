@@ -4,6 +4,19 @@
 #include "Weapon/STRifleWeapon.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
+#include "Weapon/Components/STWeaponFXComponent.h"
+
+void ASTRifleWeapon::BeginPlay()
+{
+	Super::BeginPlay();
+
+	check(WeaponFXComponent);
+}
+
+ASTRifleWeapon::ASTRifleWeapon()
+{
+	WeaponFXComponent = CreateDefaultSubobject<USTWeaponFXComponent>("WeaponFXComponent");
+}
 
 void ASTRifleWeapon::MakeShot()
 {
@@ -30,10 +43,10 @@ void ASTRifleWeapon::MakeShot()
 		
 		MakeDamage(HitResult);
 		
-		DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), HitResult.ImpactPoint, FColor::Red, false, 3.0f, 0,
-					  3.0f);
-		DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.0f, 24, FColor::Red, false, 5.0f);
-		
+		//DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), HitResult.ImpactPoint, FColor::Red, false, 3.0f, 0,
+				//	  3.0f);
+		//DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.0f, 24, FColor::Red, false, 5.0f);
+		WeaponFXComponent->PlayImpactFX(HitResult);
 	}
 	else
 	{
@@ -41,6 +54,7 @@ void ASTRifleWeapon::MakeShot()
 	}
 	DecreaseAmmo();
 }
+
 
 void ASTRifleWeapon::StartFire()
 {
