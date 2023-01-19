@@ -2,12 +2,16 @@
 
 
 #include "Weapon/STBaseWeapon.h"
+
+#include "NiagaraFunctionLibrary.h"
+#include "NiagaraSystem.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Engine/World.h"
 #include "GameFramework/Character.h"
 
 
 DEFINE_LOG_CATEGORY_STATIC(LogBaseWeapon, All, All);
+
 #define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green,text)
 
 ASTBaseWeapon::ASTBaseWeapon()
@@ -22,25 +26,22 @@ void ASTBaseWeapon::BeginPlay()
 {
 	Super::BeginPlay();
 	checkf(DefaultAmmo.Bullets > 0, TEXT("BUllets count couldn`t be less of equal zero"));
-	checkf(DefaultAmmo.Clips > 0 , TEXT("Clips count couldn`t be less of equal zero"))
+	checkf(DefaultAmmo.Clips > 0, TEXT("Clips count couldn`t be less of equal zero"))
 	check(WeaponMeshComponent);
 	CurrentAmmo = DefaultAmmo;
 }
 
 
-
 void ASTBaseWeapon::MakeShot()
 {
-	
 }
 
 void ASTBaseWeapon::StartFire()
 {
-	
 }
+
 void ASTBaseWeapon::StopFire()
 {
-	
 }
 
 APlayerController* ASTBaseWeapon::GetPlayerController() const
@@ -54,11 +55,23 @@ APlayerController* ASTBaseWeapon::GetPlayerController() const
 
 bool ASTBaseWeapon::GetPlayerViewPoint(FVector& ViewLocation, FRotator& ViewRotation) const
 {
-	const APlayerController* Controller = GetPlayerController();
-	if (!Controller)
-		return false;
+	const auto STCharacter = Cast<ACharacter>(GetOwner());
+	if (!STCharacter) return false;
 
-	Controller->GetPlayerViewPoint(ViewLocation, ViewRotation);
+	if (STCharacter->IsPlayerControlled())
+	{
+		const APlayerController* Controller = GetPlayerController();
+		if (!Controller)
+			return false;
+
+		Controller->GetPlayerViewPoint(ViewLocation, ViewRotation);
+	}
+	else
+	{
+		ViewLocation = GetMuzzleWorldLocation();
+		ViewRotation = WeaponMeshComponent->GetSocketRotation(MuzzleSocketName);
+	}
+
 	return true;
 }
 
@@ -71,7 +84,7 @@ bool ASTBaseWeapon::GetTraceData(FVector& TraceStart, FVector& TraceEnd) const
 {
 	FVector ViewLocation;
 	FRotator ViewRotation;
-	
+
 	if (!GetPlayerViewPoint(ViewLocation, ViewRotation))
 		return false;
 
@@ -82,37 +95,39 @@ bool ASTBaseWeapon::GetTraceData(FVector& TraceStart, FVector& TraceEnd) const
 
 	return true;
 }
+
 void ASTBaseWeapon::MakeHit(FHitResult& HitResult, const FVector& TraceStart, const FVector& TraceEnd)
 {
-	if(!GetWorld())
+	if (!GetWorld())
 		return;
 	FCollisionQueryParams CollisionQueryParams;
 	CollisionQueryParams.AddIgnoredActor(GetOwner());
 	CollisionQueryParams.bReturnPhysicalMaterial = true;
 
-	
+
 	GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, ECollisionChannel::ECC_Visibility,
-										 CollisionQueryParams);
+	                                     CollisionQueryParams);
 }
 
 void ASTBaseWeapon::DecreaseAmmo()
 {
-	if(CurrentAmmo.Bullets == 0) return;
-	
+	if (CurrentAmmo.Bullets == 0) return;
+
 	CurrentAmmo.Bullets--;
 	LogAmmo();
 
-	if(IsClipEmpty() && !IsAmmoEmpty())
+	if (IsClipEmpty() && !IsAmmoEmpty())
 	{
 		StopFire();
 		OnClipEmpty.Broadcast(this);
 	}
-	
 }
+
 bool ASTBaseWeapon::IsAmmoEmpty() const
 {
-	return  !CurrentAmmo.Infinite && CurrentAmmo.Clips == 0 && IsClipEmpty();
+	return !CurrentAmmo.Infinite && CurrentAmmo.Clips == 0 && IsClipEmpty();
 }
+
 bool ASTBaseWeapon::IsClipEmpty() const
 {
 	return CurrentAmmo.Bullets == 0;
@@ -123,11 +138,22 @@ bool ASTBaseWeapon::IsAmmoFull() const
 	return CurrentAmmo.Clips == DefaultAmmo.Clips && CurrentAmmo.Bullets == DefaultAmmo.Bullets;
 }
 
+UNiagaraComponent* ASTBaseWeapon::SpawnMuzzleFX()
+{
+	return UNiagaraFunctionLibrary::SpawnSystemAttached(MuzzleFX,
+	                                                    WeaponMeshComponent,
+	                                                    MuzzleSocketName,
+	                                                    FVector::ZeroVector,
+	                                                    FRotator::ZeroRotator,
+	                                                    EAttachLocation::SnapToTarget,
+	                                                    true);
+}
+
 void ASTBaseWeapon::ChangeClip()
 {
-	if(CurrentAmmo.Infinite) return;
-	if(CurrentAmmo.Clips == 0) return;
-	
+	if (CurrentAmmo.Infinite) return;
+	if (CurrentAmmo.Clips == 0) return;
+
 	CurrentAmmo.Clips--;
 	CurrentAmmo.Bullets = DefaultAmmo.Bullets;
 }
@@ -139,18 +165,18 @@ bool ASTBaseWeapon::CanReload() const
 
 bool ASTBaseWeapon::TryToAddAmmo(int32 ClipsAmount)
 {
-	if(IsAmmoFull() || CurrentAmmo.Infinite || ClipsAmount <= 0)
+	if (IsAmmoFull() || CurrentAmmo.Infinite || ClipsAmount <= 0)
 		return false;
-	if(IsAmmoEmpty())
+	if (IsAmmoEmpty())
 	{
 		UE_LOG(LogBaseWeapon, Display, TEXT("Ammo was empty"));
 		CurrentAmmo.Clips = FMath::Clamp(CurrentAmmo.Clips + ClipsAmount, 0, DefaultAmmo.Clips + 1);
 		OnClipEmpty.Broadcast(this);
 	}
-	else if(CurrentAmmo.Clips < DefaultAmmo.Clips)
+	else if (CurrentAmmo.Clips < DefaultAmmo.Clips)
 	{
 		const auto NextClipsAmount = CurrentAmmo.Clips + ClipsAmount;
-		if(DefaultAmmo.Clips - NextClipsAmount >= 0)
+		if (DefaultAmmo.Clips - NextClipsAmount >= 0)
 		{
 			UE_LOG(LogBaseWeapon, Display, TEXT("Clips were added"));
 			CurrentAmmo.Clips = NextClipsAmount;

@@ -34,4 +34,6 @@ void ASTLauncherWeapon::MakeShot()
 		Projectile->FinishSpawning(SpawnTransform);
 	}
 	DecreaseAmmo();
+
+	SpawnMuzzleFX();
 }

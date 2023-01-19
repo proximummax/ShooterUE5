@@ -3,10 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraComponent.h"
 #include "Weapon/STBaseWeapon.h"
 #include "STRifleWeapon.generated.h"
 
 class USTWeaponFXComponent;
+class UNiagaraComponent;
+class UNiagaraSystem;
 UCLASS()
 class SHOOTER_API ASTRifleWeapon : public ASTBaseWeapon
 {
@@ -29,10 +32,23 @@ protected:
 	UPROPERTY(VisibleAnywhere,BlueprintReadWrite, Category="VFX")
 	USTWeaponFXComponent* WeaponFXComponent;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="VFX")
+	UNiagaraSystem* TraceFX;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="VFX")
+	FString TraceTargetName = "TraceTarget";
+	
 	virtual void BeginPlay() override;
 	virtual void MakeShot() override;
 	virtual bool GetTraceData(FVector& TraceStart, FVector& TraceEnd) const override;
 private:
 	FTimerHandle ShotTimerHandle;
+
+	UPROPERTY()
+	UNiagaraComponent* MuzzleFXComponent;
+
 	void MakeDamage(const FHitResult& HitResult);
+	void SetMuzzleFXVisibility(bool Visible);
+	void InitMuzzleFX();
+	void SpawnTraceFX(const FVector& TraceStart,const FVector& TraceEnd);
 };

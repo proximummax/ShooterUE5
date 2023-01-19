@@ -8,6 +8,9 @@
 #include "STBaseWeapon.generated.h"
 
 class USkeletalMeshComponent;
+class UNiagaraSystem;
+class UNiagaraComponent;
+
 UCLASS()
 class SHOOTER_API ASTBaseWeapon : public AActor
 {
@@ -23,7 +26,8 @@ public:
 
 	void ChangeClip();
 	bool CanReload() const;
-
+	bool IsAmmoEmpty() const;
+	
 	FWeaponUIData GetUIData() const {return  UIData;}
 	FAmmoData GetAmmoData() const {return CurrentAmmo;}
 	bool TryToAddAmmo(int32 ClipsAmount);
@@ -42,6 +46,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="UI")
 	FWeaponUIData UIData;
 	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="VFX")
+	UNiagaraSystem* MuzzleFX;
+	
 	virtual void BeginPlay() override;
 	
 	virtual void MakeShot();
@@ -53,10 +60,10 @@ protected:
 	void MakeHit(FHitResult& HitResult, const FVector& TraceStart, const FVector& TraceEnd);
 
 	void DecreaseAmmo();
-	bool IsAmmoEmpty() const;
 	bool IsClipEmpty() const;
 	bool IsAmmoFull() const;
-	
+
+	UNiagaraComponent* SpawnMuzzleFX();
 	void LogAmmo();
 private:
 	FAmmoData CurrentAmmo;
