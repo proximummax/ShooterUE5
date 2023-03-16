@@ -50,7 +50,7 @@ protected:
 	
 	float DefaultSpeed = 600.0f;
 	virtual void BeginPlay() override;
-
+	virtual void OnDeath();
 public:
 	virtual void Tick(float DeltaSeconds) override;
 
@@ -72,7 +72,7 @@ private:
 
 	void OnStartRunning();
 	void OnStopRunning();
-	void OnDeath();
+
 	void OnHealthChanged(float Health, float HealthDelta);
 	UFUNCTION()
 	void OnGroundLanded(const FHitResult& Hit);

@@ -27,10 +27,10 @@ void ASTAIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
 	
-	const auto Character = Cast<ASTAICharacter>(InPawn);
-	if(!Character) return;
+	const auto CharacterAI = Cast<ASTAICharacter>(InPawn);
+	if(!CharacterAI) return;
 
-	RunBehaviorTree(Character->BehaviorTree);
+	RunBehaviorTree(CharacterAI->BehaviorTree);
 }
 
 AActor* ASTAIController::GetFocusOnActor() const

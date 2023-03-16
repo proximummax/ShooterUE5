@@ -37,7 +37,7 @@ EBTNodeResult::Type USTNextLocationTask::ExecuteTask(UBehaviorTreeComponent& Own
 	if(!Found) return EBTNodeResult::Failed;
 
 	BlackBoard->SetValueAsVector(AimLocationKey.SelectedKeyName, NavResult.Location);
-
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *NavResult.Location.ToString());
 	return  EBTNodeResult::Succeeded;
 
 }

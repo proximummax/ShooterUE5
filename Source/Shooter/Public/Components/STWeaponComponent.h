@@ -25,6 +25,7 @@ public:
 	bool GetWeaponUIData(FWeaponUIData& UIData) const;
 	bool GetAmmoData(FAmmoData& AmmoData) const;
 	bool TryToAddAmmo(TSubclassOf<ASTBaseWeapon> WeaponType, int32 ClipsAmount);
+	bool NeedAmmo(TSubclassOf<ASTBaseWeapon> WeaponType);
 protected:
 	virtual void BeginPlay() override;
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;

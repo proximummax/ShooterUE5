@@ -16,4 +16,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category="AI")
 	UBehaviorTree* BehaviorTree;
+
+protected:
+	virtual void OnDeath() override;
 };

@@ -215,6 +215,21 @@ bool USTWeaponComponent::TryToAddAmmo(TSubclassOf<ASTBaseWeapon> WeaponType, int
 	return  false;
 }
 
+bool USTWeaponComponent::NeedAmmo(TSubclassOf<ASTBaseWeapon> WeaponType)
+{
+
+	for (auto Weapon : Weapons)
+	{
+		if (!Weapon || !Weapon->IsA(WeaponType))
+			continue;
+
+		return Weapon->IsAmmoFull();
+	}
+	return  false;
+
+	return false;
+}
+
 bool USTWeaponComponent::CanReload() const
 {
 	return CurrentWeapon && !EquipAnimInProgress && !ReloadAnimInProgress && CurrentWeapon->CanReload();
