@@ -70,5 +70,29 @@ struct FImpactData
 	FDecalData DecalData;
 };
 
+USTRUCT(BlueprintType)
+struct FGameData
+{
+	GENERATED_USTRUCT_BODY()
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game")
+	int32 PlayersNum = 2;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game")
+	int32 RoundsNum = 4;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game")
+	int32 RoundTime = 10; // in seconds
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FLinearColor DefaultTeamColor = FLinearColor::Red;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FLinearColor> TeamColors;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game")
+	int32 RespawnTime = 5; // in seconds
+};
+
 DECLARE_MULTICAST_DELEGATE(FOnDeath);
 DECLARE_MULTICAST_DELEGATE_TwoParams(FOnHealthChanged, float, float);

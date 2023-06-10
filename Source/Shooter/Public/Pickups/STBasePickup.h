@@ -19,8 +19,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="Pickup")
 	float RespawnTime = 5.0f;
 
-	
-
 	ASTBasePickup();
 
 protected:

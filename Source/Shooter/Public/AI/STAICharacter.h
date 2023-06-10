@@ -11,6 +11,7 @@ UCLASS()
 class SHOOTER_API ASTAICharacter : public ASTBaseCharacter
 {
 	GENERATED_BODY()
+
 public:
 	ASTAICharacter(const FObjectInitializer& ObjInit);
 

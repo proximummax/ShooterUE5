@@ -7,6 +7,13 @@
 #include "Components/STWeaponComponent.h"
 #include "Shooter/Public/STUtils.h"
 
+void USTPlayerHUDWidget::NativeOnInitialized()
+{
+	Super::NativeOnInitialized();
+
+	
+}
+
 float USTPlayerHUDWidget::GetHealthPercent() const
 {
 	const auto HealthComponent = STUtils::GetSTPlayerComponent<USTHealthComponent>(GetOwningPlayerPawn());
@@ -48,14 +55,24 @@ bool USTPlayerHUDWidget::IsPlayerSpectating() const
 
 bool USTPlayerHUDWidget::Initialize()
 {
-	const auto HealthComponent = STUtils::GetSTPlayerComponent<USTHealthComponent>(GetOwningPlayerPawn());
-	if(HealthComponent)
+	if(!GetOwningPlayer())
 	{
-		HealthComponent->OnHealthChanged.AddUObject(this, &USTPlayerHUDWidget::OnHealthChanged);
+		GetOwningPlayer()->GetOnNewPawnNotifier().AddUObject(this, &USTPlayerHUDWidget::OnNewPawn);
+		OnNewPawn(GetOwningPlayerPawn());
 	}
+
+	
 	return Super::Initialize();
 }
 
+void USTPlayerHUDWidget::OnNewPawn(APawn* Pawn)
+{
+	const auto HealthComponent = STUtils::GetSTPlayerComponent<USTHealthComponent>(Pawn);
+	if (HealthComponent && !HealthComponent->OnHealthChanged.IsBoundToObject(this))
+	{
+		HealthComponent->OnHealthChanged.AddUObject(this, &USTPlayerHUDWidget::OnHealthChanged);
+	}
+}
 void USTPlayerHUDWidget::OnHealthChanged(float Health, float HealthDelta)
 {
 	if(HealthDelta < 0.0f)

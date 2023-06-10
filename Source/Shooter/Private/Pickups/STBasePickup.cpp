@@ -13,6 +13,7 @@ ASTBasePickup::ASTBasePickup()
 	CollisionComponent->InitSphereRadius(50.0f);
 	CollisionComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	CollisionComponent->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+
 	SetRootComponent(CollisionComponent);
 }
 

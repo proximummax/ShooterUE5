@@ -44,14 +44,6 @@ void ASTBaseWeapon::StopFire()
 {
 }
 
-APlayerController* ASTBaseWeapon::GetPlayerController() const
-{
-	const auto Player = Cast<ACharacter>(GetOwner());
-	if (!Player)
-		return nullptr;
-
-	return Player->GetController<APlayerController>();
-}
 
 bool ASTBaseWeapon::GetPlayerViewPoint(FVector& ViewLocation, FRotator& ViewRotation) const
 {
@@ -60,7 +52,7 @@ bool ASTBaseWeapon::GetPlayerViewPoint(FVector& ViewLocation, FRotator& ViewRota
 
 	if (STCharacter->IsPlayerControlled())
 	{
-		const APlayerController* Controller = GetPlayerController();
+		const APlayerController* Controller = STCharacter->GetController<APlayerController>();
 		if (!Controller)
 			return false;
 

@@ -7,6 +7,7 @@
 #include "STAIController.generated.h"
 
 class USTAIPerceptionComponent;
+class USTRespawnComponent;
 UCLASS()
 class SHOOTER_API ASTAIController : public AAIController
 {
@@ -14,11 +15,15 @@ class SHOOTER_API ASTAIController : public AAIController
 public:
 	ASTAIController();
 protected:
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category= "AI")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category= "Components")
 	USTAIPerceptionComponent* STPerceptionComponent;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category= "Components")
+	USTRespawnComponent* STRespawnComponent;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="AI")
 	FName FocusOnKeyName = "EnemyActor";
+	
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void OnPossess(APawn* InPawn) override;
 private:

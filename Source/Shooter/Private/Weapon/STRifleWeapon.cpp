@@ -23,12 +23,12 @@ void ASTRifleWeapon::MakeShot()
 {
 	if (!GetWorld())
 		return;
-	if(IsAmmoEmpty())
+	if (IsAmmoEmpty())
 	{
 		StopFire();
 		return;
 	}
-	
+
 	FVector TraceStart, TraceEnd;
 	if (!GetTraceData(TraceStart, TraceEnd))
 	{
@@ -46,7 +46,7 @@ void ASTRifleWeapon::MakeShot()
 		MakeDamage(HitResult);
 		WeaponFXComponent->PlayImpactFX(HitResult);
 	}
-	SpawnTraceFX(GetMuzzleWorldLocation(),TraceFXEnd);
+	SpawnTraceFX(GetMuzzleWorldLocation(), TraceFXEnd);
 	DecreaseAmmo();
 }
 
@@ -57,6 +57,7 @@ void ASTRifleWeapon::StartFire()
 	GetWorldTimerManager().SetTimer(ShotTimerHandle, this, &ASTRifleWeapon::MakeShot, TimeBetweenShots, true);
 	MakeShot();
 }
+
 void ASTRifleWeapon::StopFire()
 {
 	GetWorldTimerManager().ClearTimer(ShotTimerHandle);
@@ -67,7 +68,7 @@ bool ASTRifleWeapon::GetTraceData(FVector& TraceStart, FVector& TraceEnd) const
 {
 	FVector ViewLocation;
 	FRotator ViewRotation;
-	
+
 	if (!GetPlayerViewPoint(ViewLocation, ViewRotation))
 		return false;
 
@@ -78,17 +79,18 @@ bool ASTRifleWeapon::GetTraceData(FVector& TraceStart, FVector& TraceEnd) const
 
 	return true;
 }
+
 void ASTRifleWeapon::MakeDamage(const FHitResult& HitResult)
 {
 	AActor* DamagedActor = HitResult.GetActor();
-	if(!DamagedActor)
+	if (!DamagedActor)
 		return;
-	DamagedActor->TakeDamage(DamageAmount, FDamageEvent(), GetPlayerController(), this);
+	DamagedActor->TakeDamage(DamageAmount, FDamageEvent(), GetController(), this);
 }
 
 void ASTRifleWeapon::InitMuzzleFX()
 {
-	if(!MuzzleFXComponent)
+	if (!MuzzleFXComponent)
 	{
 		MuzzleFXComponent = SpawnMuzzleFX();
 	}
@@ -101,19 +103,23 @@ void ASTRifleWeapon::SpawnTraceFX(const FVector& TraceStart, const FVector& Trac
 		GetWorld(),
 		TraceFX,
 		TraceStart);
-	if(TraceFXComponent)
+	if (TraceFXComponent)
 	{
 		TraceFXComponent->SetNiagaraVariableVec3(TraceTargetName, TraceEnd);
 	}
-
-	
 }
 
 void ASTRifleWeapon::SetMuzzleFXVisibility(bool Visible)
 {
-	if(MuzzleFXComponent)
+	if (MuzzleFXComponent)
 	{
 		MuzzleFXComponent->SetPaused(!Visible);
-		MuzzleFXComponent->SetVisibility(Visible,true);
+		MuzzleFXComponent->SetVisibility(Visible, true);
 	}
+}
+
+AController* ASTRifleWeapon::GetController() const
+{
+	const auto Pawn = Cast<APawn>(GetOwner());
+	return Pawn ? Pawn->GetController() : nullptr;
 }

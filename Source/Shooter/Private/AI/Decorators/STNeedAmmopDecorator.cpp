@@ -23,6 +23,4 @@ bool USTNeedAmmopDecorator::CalculateRawConditionValue(UBehaviorTreeComponent& O
 		return false;
 
 	return WeaponComponent->NeedAmmo(WeaponClass);
-
-	return false;
 }

@@ -16,6 +16,7 @@ class SHOOTER_API USTPlayerHUDWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
+	virtual void NativeOnInitialized() override;
 	UFUNCTION(BlueprintCallable, Category="UI")
 	float GetHealthPercent() const;
 
@@ -33,8 +34,10 @@ public:
 	
 	UFUNCTION(BlueprintImplementableEvent, Category="UI")
 	void OnTakeDamage();
+
 	
 	virtual bool Initialize() override;
 private:
 	void OnHealthChanged(float Health, float HealthDelta);
+	void OnNewPawn(APawn* Pawn);
 };

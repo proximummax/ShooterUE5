@@ -2,12 +2,12 @@
 
 
 #include "Components/STCharacterMovementComponent.h"
-#include "Player/STBaseCharacter.h"
+#include "Player/STPlayerCharacter.h"
 
 float USTCharacterMovementComponent::GetMaxSpeed() const
 {
 	const float MaxSpeed = Super::GetMaxSpeed();
-	const ASTBaseCharacter* Player = Cast<ASTBaseCharacter>(GetPawnOwner());
+	const ASTPlayerCharacter* Player = Cast<ASTPlayerCharacter>(GetPawnOwner());
 
 	return Player && Player->IsRunning() ? MaxSpeed * RunModifer : MaxSpeed;
 }
